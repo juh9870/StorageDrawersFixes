@@ -1,0 +1,30 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+    modId="storagedrawersfixes" #mandatory
+    version="${file.jarVersion}" #mandatory
+    displayName="Storage Drawers Fixes" #mandatory
+    logoFile="logo.png" #optional
+    issueTrackerURL="https://github.com/juh9870/StorageDrawersFixes/issues" #optional
+    authors="juh9870" #optional
+    description='''Attempts to fix automation issues regarding Storage Drawers'''
+[[dependencies.storagedrawersfixes]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.storagedrawersfixes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.storagedrawersfixes]]
+    modId="storagedrawers"
+    mandatory=false
+    versionRange="[1.16.3-8.5.2,)" #keep updated
+    ordering="AFTER"
+    side="BOTH"

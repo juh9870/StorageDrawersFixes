@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.juh9870.storagedrawersfixes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "storagedrawersfixes.refmap.json",
+  "mixins": [
+    "storagedrawers.DrawerItemHandler"
+  ],
+  "minVersion": "0.8"
+}
