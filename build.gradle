@@ -30,7 +30,7 @@ mixin {
     add sourceSets.main, "storagedrawersfixes.refmap.json"
 }
 
-version = '1.3.0'
+version = '1.0.0'
 group = 'com.juh9870.storagedrawersfixes' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'storagedrawersfixes'
 
